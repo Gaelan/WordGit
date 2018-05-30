@@ -13,8 +13,7 @@ Setup
   [difftool "Word"]
 	cmd = <PATH TO WORDGIT>/diff.js \"$LOCAL\" \"$REMOTE\"
   [mergetool "Word"]
-	cmd = bash <PATH TO WORDGIT>/merge.sh \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
-	trustexitcode = true
+	cmd = <PATH TO WORDGIT>/merge.js \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
   ```
 
 Usage
