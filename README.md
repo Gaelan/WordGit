@@ -11,7 +11,7 @@ Setup
 2. Add the following to `~/.gitconfig`:
   ```
   [difftool "Word"]
-	cmd = /usr/local/WordGit/diff.js \"$LOCAL\" \"$REMOTE\"
+	cmd = <PATH TO WORDGIT>/diff.js \"$LOCAL\" \"$REMOTE\"
   [mergetool "Word"]
 	cmd = bash <PATH TO WORDGIT>/merge.sh \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustexitcode = true
