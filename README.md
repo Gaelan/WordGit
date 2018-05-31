@@ -45,6 +45,7 @@ FAQ
 
 No, this is implemented using Apple's scripting support. However, you may be
 able to use [TortoiseGit's Windows implementation][tgit] of the same feature.
+
 [tgit]: https://github.com/TortoiseGit/TortoiseGit/tree/master/contrib/diff-scripts
 
 How it works
